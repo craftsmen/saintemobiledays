@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Sainté Mobile Days, 22nd-23rd November 2013</title>
+    <meta name="description" content="Sainté Mobile Days, a 2 days conference for developers, designers and entrepreneurs. The most mobile event in France!">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" type="text/css" href="/assets/application.css">
+    <script src="assets/vendor/custom.modernizr.js"></script>
+    <script src="assets/application.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/ijb4sev.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+    <div class="contain-to-grid">
+        <nav class="top-bar">
+            <ul class="title-area">
+                <li class="name"><h1><a href="/">SMD</a></h1></li>
+                <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="/speakers">Speakers & Talks</a></li>
+                    <li><a href="/workshops">Workshops</a></li>
+                    <li><a href="/location">Location</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+                <ul class="right">
+                    <li class="highlighted"><a href="http://tickets.saintemobiledays.com">Get your tickets</a></li>
+                    <li class="hide-for-small"><a href="https://twitter.com/smd_conf"><img src='/assets/twitter.png' /></a></li>
+                    <li class="hide-for-small"><a href="http://lanyrd.com/2013/smd13/"><img src='/assets/lanyrd.png' /></a></li>
+                </ul>
+            </section>
+        </nav>
+    </div>
+
+    <div id="content">
+        <%= yield %>
+    </div>
+
+    <footer>
+        <section class="sponsors">
+            <div class="row">
+                <div class="small-12 large-12 columns">
+                    <h4>Solid Gold Sponsors</h4>
+                    <ul class="sponsors-block-grid">
+                        <li><a href="http://www.orange.fr/"><img src="/assets/sponsors/orange.png" /></a></li>
+                        <li><a href="http://www.cienum.fr/"><img src="/assets/sponsors/cienum.png" /></a></li>
+                        <li><a href="mailto:hello@saintemobiledays.com"><img src="/assets/sponsors/logo-placeholder.png" /></a></li>
+                    </ul>
+                    <h4>Silver Sponsors</h4>
+                    <ul class="sponsors-block-grid">
+                        <li><a href="http://www.appcelerator.com/"><img src="/assets/sponsors/appcelerator.png" /></a></li>
+                        <li><a href="http://www.mailjet.com/"><img src="/assets/sponsors/mailjet.png" /></a></li>
+                    </ul>
+                    <h4>Conference Sponsors</h4>
+                    <ul class="sponsors-block-grid">
+                        <li><a href="http://www.eyrolles.com/"><img src="/assets/sponsors/eyrolles.png" /></a></li>
+                        <li><a href="http://www.isiapps.com/"><img src="/assets/sponsors/isiapps.png" /></a></li>
+                    </ul>
+                    <h4>Media Partners</h4>
+                    <ul class="sponsors-block-grid">
+                        <li><a href="http://frenchweb.fr/"><img src="/assets/sponsors/frenchweb.png" /></a></li>
+                        <li><a href="http://humancoders.com/"><img src="/assets/sponsors/humancoders.png" /></a></li>
+                    </ul>
+                    <h4>They Support us</h4>
+                    <ul class="sponsors-block-grid">
+                        <li><a href="http://numelink.fr/"><img src="/assets/partners/numelink.png" /></a></li>
+                        <li><a href="http://www.collectif-designersplus.fr/"><img src="/assets/partners/designersplus.png" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="credits text-center">
+            <p>
+                Shaped by the fine ladies and gentlemen at <a href="http://craftsmen.io">Craftsmen</a> & <a href="http://telecom-st-etienne.fr/">Telecom Saint-Etienne</a>
+                <br />
+                Need to get in touch? <a href="mailto:hello@saintemobiledays.com">Email Mehdi & Elodie.</a>
+            </p>
+        </section>
+    </footer>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-42002053-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+</body>
+</html>
