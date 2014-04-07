@@ -1,6 +1,10 @@
 require 'sinatra'
 
 class App < Sinatra::Base
+  configure :production do
+    require 'newrelic_rpm'
+  end
+
   get '/' do
     erb :home
   end
